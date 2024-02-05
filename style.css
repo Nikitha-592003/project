@@ -3,18 +3,19 @@ h1{color:azure;
 
 hr{color: white;}
 
-h2{color:white;}
+h2{color:white;
+   align-content: center;
+  }
 body{
     background-image: url(./bg.avif);
     background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 200%;
 opacity: 1;}
 
 
-.img{margin: 30px;
-     width:140px;
-     height:140px;
+img.im{margin: 30px;
      border:2px solid white;
+     border-radius: 50%;
     
    }
 
@@ -46,5 +47,18 @@ opacity: 1;}
   .intro{
      margin:30px;
     color:white;
-    
   font-size:20px;}
+
+  
+  ul.p{color:green;}
+
+  div.pa{display: flex;
+   margin-left: 10px;}
+
+  ul.p{color:white;}
+
+  .con{background-color: #111;
+  font-size: medium;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+color:white;}
